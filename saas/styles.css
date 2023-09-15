@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body .heart {
+  font-size: 2rem;
+  color: red;
+  position: absolute;
+  left: 1.2rem;
+  top: 1.2rem;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669f;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 190%;
+  left: 90%;
+}
+.plus p {
+  color: white;
+  font-size: 2rem;
+}
+
+header .descuentos {
+  height: 38px;
+  background-color: #d1891c;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  justify-content: center;
+  color: #333333;
+}
+header .descuentos p {
+  font-size: 1rem;
+}
+header .header-contenido {
+  height: 101px;
+  background-color: #00669f;
+  box-shadow: 10px 5px 10px black;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header .header-contenido p {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+}
+.cards .card-container {
+  height: 764.15px;
+  width: 400px;
+  margin: 2rem 1rem;
+  position: relative;
+}
+.cards .card-container .card-top {
+  height: 300px;
+}
+.cards .card-container .card-top .card-main-image {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  border-top-left-radius: 1.7rem;
+  border-top-right-radius: 1.7rem;
+}
+.cards .card-container .card-top .card-profile-image {
+  width: 15vw;
+  position: absolute;
+  right: 135px;
+  right: 50%;
+  top: 35%;
+  transform: translate(50%, -50%);
+}
+.cards .card-container .cards-content {
+  height: 420px;
+  background-color: #f3f3f3;
+  padding: 7%;
+  text-align: center;
+  align-items: center;
+}
+.cards .card-container .cards-content .hero-names {
+  margin-top: 2.8rem;
+  font-size: 2rem;
+}
+.cards .card-container .cards-content .cards-text {
+  margin-top: 20px;
+  text-align: left;
+}
+.cards .card-container .cards-content .cards-button {
+  background-color: #00669f;
+  padding: 0.8rem 2.5rem;
+  color: white;
+  position: absolute;
+  bottom: 4rem;
+  transform: translateX(-50%);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+  height: 51px;
+  font-size: 17px;
+  background-color: #00669f;
+  padding: 0 50px;
+  gap: 1rem;
+}
+.footer-container .footer-text p {
+  color: white;
+  text-align: center;
+  flex-grow: 1;
+}
+.footer-container .github {
+  width: 70px;
+  height: auto;
+}/*# sourceMappingURL=styles.css.map */
